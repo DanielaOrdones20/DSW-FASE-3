@@ -1,0 +1,65 @@
+
+
+nav, header, footer, .Contenedor{
+    max-width: 98%;
+    margin: auto;
+}
+nav{
+    text-align: end;
+}
+header{
+    background-color: lavender;
+    text-align: end;
+}
+.Contenedor{
+    background-color: rgb(209, 252, 212);
+    
+}
+footer{
+    background-color:lavender;
+    text-align: center
+}
+.central{
+    display: inline-block;
+    max-width: 65%;
+    
+}
+.Menu li{
+    display: inline-block;
+    text-align: center;
+    
+}
+Li a, Boton{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.1em 0.7em;    
+}
+.ListaDesplegable{
+    background-color: lavender;
+    display: none;
+    position: absolute;
+    
+}
+.ListaDesplegable a{
+    display: block;
+    text-align: left;
+}
+.Boton:hover .ListaDesplegable{
+    display: block;
+}
+Li a:hover{
+    background-color: rgb(190, 226, 240);
+}
+
+aside{
+    display: inline-block;
+    max-width: 40%;
+    
+    text-align: end;
+    
+}
+
+.Titulo{
+    text-align: start;
+}
